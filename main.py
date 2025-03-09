@@ -20,6 +20,7 @@ def load_all_data():
         thread.start()
         thread.join()  # รอให้ thread ทำงานเสร็จในแต่ละครั้ง
 
+
 # สร้าง thread สำหรับแสดงข้อความต้อนรับ
 thread2 = threading.Thread(target=print_welcome_message)
 thread2.start()
